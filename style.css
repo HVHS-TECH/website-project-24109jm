@@ -1,3 +1,6 @@
 body {
     background-color: white;
 }
+.Logo img {
+    filter: brightness(0) saturate(100%) invert(51%) sepia(90%) saturate(417%) hue-rotate(340deg) brightness(93%) contrast(92%);
+}

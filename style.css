@@ -1,6 +1,5 @@
 body {
     background-color: #6B9788;
-    margin: 8px;
 }
 
 html, body {
@@ -22,8 +21,8 @@ html, body {
 }
 
 .nav {
-    margin:-8px;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
     grid-column-start: 1;
     grid-column-end: 19;
     grid-row-start: 1;

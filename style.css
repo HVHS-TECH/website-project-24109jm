@@ -4,7 +4,6 @@ body {
 
 html, body {
     height: 100%;
-    margin-top: 8px;
 }
 
 .nav img {
@@ -50,3 +49,4 @@ html, body {
     margin: 8px;
     border-radius: 8px;
 }
+

@@ -7,7 +7,7 @@ html, body {
 }
 
 a {
-    color: #E6A256;
+    color: #E57B35;
 }
 
 .nav img {
@@ -41,8 +41,13 @@ a {
     margin-left: auto;
 }
 
+.boxes {
+    display: flex;
+    gap: 8px;
+}
+
 .feature {
-    width: 60%;
+    width: 70%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 12px;
 }
@@ -57,10 +62,11 @@ a {
 .textBox {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 12px;
-    color: #E6A256;
+    color: #E57B35;
+    width: 30%;
 }
 
-.textBox h1, p {
+.textBox h1, .textBox p {
     margin: 12px;
     margin-top: 12px;
     margin-bottom: 12px;

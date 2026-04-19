@@ -120,11 +120,31 @@ h1 {
     position: relative;
 }
 
-.thingy img {
+.thingy > img {
     height: 35vh;
     border-radius: 8px;
     position: absolute;
     left: calc((var(--thingy-height) - var(--img-height)) / 2);
+}
+
+.thingy a {
+    position: absolute;
+    right: calc((var(--thingy-height) - var(--img-height)) / 2);
+    top: 50%;
+    transform: translateY(-50%) translateX(30px) rotate(10deg);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.thingy a img {
+    height: 35vh;
+    position: static;
+    display: block;
+}
+
+.thingy:hover a {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0px) rotate(0deg);
 }
 
 .thingy h1 {
@@ -141,6 +161,7 @@ h1 {
 .thingy p {
     color: #E57B35;
     margin-left: calc(((var(--thingy-height) - var(--img-height))) + var(--img-height));
+    margin-right: calc(((var(--thingy-height) - var(--img-height))) + var(--img-height));
     opacity: 0;
     transform: translateX(-30px);
     transition: opacity 0.3s ease, transform 0.3s ease;
